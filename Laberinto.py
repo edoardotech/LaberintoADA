@@ -1,5 +1,19 @@
 import turtle
 
+usuario = "jaimedoardo"
+contraseña = "1438"
+
+while usuario == str(input("Ingrese su usuario: ")):
+    if contraseña == str(input("Ingrese su contraseña: ")):
+        print("Bienvenido jaimedoardo")
+            
+    else:
+        print("Error de contraseña")
+        
+break
+        
+print("Error de usuario")
+
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.title("Laberinto ADA")
